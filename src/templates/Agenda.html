@@ -1,0 +1,21 @@
+<ion-view title="           Agenda" id="page1" style="background-color:#CDDDE7;">
+  <ion-content padding="true" class="has-header">
+    <form id="Agenda-form1" class="list">
+      <label class="item item-input" id="Agenda-input1">
+        <input type="text" placeholder="Pesquisar">
+      </label>
+    </form>
+    <div class="spacer" style="width: 300px; height: 17px;"></div>
+    <form id="Agenda-form2" class="list">
+      <ion-toggle toggle-class="toggle-positive" ng-checked="true" id="Agenda-toggle1">Favoritos</ion-toggle>
+      <div class="spacer" style="width: 300px; height: 26px;"></div>
+      <ion-item class="item-icon-left positive" id="Agenda-list-item1">
+        <i class="icon ion-ios-contact-outline"></i>Fulano de Tal</ion-item>
+      <ion-item class="item-icon-left item-icon-right positive" id="Agenda-list-item2">
+        <i class="icon ion-ios-contact-outline"></i>Cicrano de Tal
+        <i class="icon ion-android-favorite-outline"></i>
+      </ion-item>
+    </form>
+    <a ui-sref="sobre()" id="Agenda-button1" class="button button-positive button-block icon ion-android-person">Sobre</a>
+  </ion-content>
+</ion-view>
